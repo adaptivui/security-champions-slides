@@ -1,18 +1,18 @@
-\# Worldline Security Champions Program
+# Worldline Security Champions Program
 
 
 
-Slides for the talk presented at \*\*OWASP AppSec Days France 2025\*\*,
+Slides for the talk presented at  **OWASP AppSec Days France 2025**,
 
-published as a web presentation with \[Reveal.js](https://revealjs.com).
-
-
-
-\*\*Live:\*\* https://adaptivui.github.io/security-champions-slides/
+published as a web presentation with [Reveal.js](https://revealjs.com).
 
 
 
-\## About
+**Live:** https://adaptivui.github.io/security-champions-slides/
+
+
+
+## About
 
 Building a Security Champions program in a highly regulated environment:
 
@@ -22,17 +22,17 @@ recommendations to launch your own program.
 
 
 
-\## Navigation
+## Navigation
 
-\- Arrow keys or click to move between slides
+- Arrow keys or click to move between slides
 
-\- `F` fullscreen · `Esc` slide overview
+- `F` fullscreen · `Esc` slide overview
 
-\- Add `#/<n>` to the URL to deep-link a specific slide
+- Add `#/<n>` to the URL to deep-link a specific slide
 
 
 
-\## Run locally
+## Run locally
 
 Just open `index.html` in a browser, or serve the folder:
 
@@ -42,13 +42,13 @@ Just open `index.html` in a browser, or serve the folder:
 
 python3 -m http.server 8000
 
-\# then open http://localhost:8000
+# then open http://localhost:8000
 
 ```
 
 
 
-\## Export to PDF
+## Export to PDF
 
 Open the presentation with the `?print-pdf` query string, then print to PDF
 
@@ -64,13 +64,13 @@ https://adaptivui.github.io/security-champions-slides/?print-pdf
 
 
 
-\## Author
+## Author
 
-\*\*Nourredine Khadri\*\* — AppSec Manager \& Security Officer, Worldline
+**Nourredine Khadri** — AppSec Manager & Security Officer, Worldline
 
 
 
-\## License
+## License
 
 
 
@@ -78,35 +78,35 @@ This repository contains two types of content under different terms:
 
 
 
-\### Code — Apache License 2.0
+### Code — Apache License 2.0
 
 The presentation engine (HTML, JavaScript, configuration) is licensed under the
 
-\[Apache License 2.0](LICENSE). You are free to reuse and adapt it for your own
+[Apache License 2.0](LICENSE). You are free to reuse and adapt it for your own
 
 presentations.
 
 
 
-\### Slides \& content — CC BY-NC-ND 4.0
+### Slides & content — CC BY-NC-ND 4.0
 
-The slide images (`assets/slides/\*`), Worldline branding, and program content are
+The slide images (`assets/slides/*`), Worldline branding, and program content are
 
 licensed under
 
-\[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 
 
-\- ✅ Share with attribution
+- ✅ Share with attribution
 
-\- ❌ No commercial use
+- ❌ No commercial use
 
-\- ❌ No modifications / derivatives
+- ❌ No modifications / derivatives
 
 
 
-> Presented at \*\*OWASP AppSec Days France 2025\*\*.
+> Presented at **OWASP AppSec Days France 2025**.
 
 > Worldline name and logo are trademarks of Worldline. All rights reserved.
 
