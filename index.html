@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
 
   <style>
-    /* couleur de fond du deck = marine des slides */
+    /* deck background = navy of the slides */
     :root { --r-background-color: #1e2a3a; }
   </style>
 </head>
@@ -17,27 +17,123 @@
 <div class="reveal">
   <div class="slides">
 
-    <section data-background-image="assets/slides/slide-01.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-02.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-03.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-04.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-05.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-06.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-07.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-08.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-09.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-10.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-11.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-12.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-13.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-14.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-15.png" data-background-size="contain"></section>
-    <section data-background-image="assets/slides/slide-16.png" data-background-size="contain"></section>
+    <!-- 1 -->
+    <section data-background-image="assets/slides/slide-01.png" data-background-size="contain">
+      <aside class="notes">
+        This Security Champions program is the outcome of a journey that started in 2017 at an OWASP conference in Belfast, while looking for answers on the security of Angular applications. That is where DevSecOps was discovered, still a buzzword at the time. These ideas were then brought to Worldline: training, policies, dev forge, advocacy. Presented by Nourredine Khadri, a former full-stack developer specialized in cybersecurity for about ten years, with expertise in application security. This dual experience helps understand the challenges on both the dev and security sides. Head of application security at Worldline, driving the program since its launch two years ago, and also involved in PCI-DSS and ISO 27k audits.
+      </aside>
+    </section>
+
+    <!-- 2 -->
+    <section data-background-image="assets/slides/slide-02.png" data-background-size="contain">
+      <aside class="notes">
+        The journey in three parts: first the context and challenges faced at Worldline, because before discussing solutions we must understand the problem. Then the core topic: the contextualized approach of the program, its adaptations, how it works in practice (tools, metrics, results) and what sets it apart from traditional programs. Finally, an often overlooked aspect: the strategic challenges that emerge when the program works — success paradoxically creates new problems to anticipate. Closing with lessons learned and concrete recommendations.
+      </aside>
+    </section>
+
+    <!-- 3 -->
+    <section data-background-image="assets/slides/slide-03.png" data-background-size="contain">
+      <aside class="notes">
+        Worldline, European leader in payments (€4.6bn revenue), operates the critical infrastructure securing billions of daily transactions for merchants, banks and administrations across 40 countries. This scale generates strong organizational complexity when transforming security practices consistently. Added to this is an increasingly demanding regulatory environment (PCI-DSS, DORA…). The challenge was not technical but organizational: how to scale the implementation of consistent practices across global teams, with limited resources, while simultaneously running the Cloud, AI and Eco-Design transformations.
+      </aside>
+    </section>
+
+    <!-- 4 -->
+    <section data-background-image="assets/slides/slide-04.png" data-background-size="contain">
+      <aside class="notes">
+        A paradoxical situation: on one side, requirements pile up (PCI-DSS audits, ISO 27k, GDPR, DORA, NIS2) and policies adapt; on the other, in the field, dev teams' practices do not reflect these guidelines and pipelines do not implement these standards. Daily consequences: laborious audit preparations, certifications hard to obtain, a widening gap between dev and security, and incidents consuming resources instead of enabling prevention. The gap is self-sustaining: more requirements → more policies → less effective adoption, with regulatory pressure translating into team stress. The response: a systemic approach through DevSecOps (shared responsibility, continuous improvement, Security by Design, automated testing, security gates in CI/CD, a shift-left mindset). The Security Champions program was born as the lever for this transformation, with an approach different from traditional programs.
+      </aside>
+    </section>
+
+    <!-- 5 -->
+    <section data-background-image="assets/slides/slide-05.png" data-background-size="contain">
+      <aside class="notes">
+        Definition adopted: a Security Champions Program identifies, trains and empowers developers to become security advocates, promoting secure development / secure coding and bridging the gap between security and development teams. The model is built around three pillars: Governance, Engagement & Lifecycle (ownership, champion selection, communication); Learning Content & Community Practice (curriculum, mentoring, knowledge base); Measurement & Enablement (tools, platforms, metrics, continuous improvement). Three minimum prerequisites at launch: formal executive sponsorship (IT + security), local management support to identify and recognize champions, and a progressive, volunteer-based rollout targeting critical and certification-relevant projects. This off-the-shelf model must be adapted and fine-tuned — as-is it often does not move beyond the concept stage and must answer four classic objections.
+      </aside>
+    </section>
+
+    <!-- 6 -->
+    <section data-background-image="assets/slides/slide-06.png" data-background-size="contain">
+      <aside class="notes">
+        First objection: relevance. Does the program really bridge the policy-practice gap, or is it just a DevSecOps culture initiative (training, awareness, advocacy)? These questions are valid and recognized in the literature. But in a context of frequent audits, compliance pressure and limited resources, something more immediately operational was needed. Hence the performative approach: concrete implementation of security in projects. Champions learn to implement controls through labs, then deliver these controls into production — they are not just trainers, they are operators. Result: +85% improvement in security posture on participating projects, with immediate ROI.
+      </aside>
+    </section>
+
+    <!-- 7 -->
+    <section data-background-image="assets/slides/slide-07.png" data-background-size="contain">
+      <aside class="notes">
+        An intensive 8-week program combining learning and hands-on implementation. Two phases: Weeks 1-3 (Learning & Assessment) — three 1-hour group sessions for knowledge transfer, six e-learning modules with labs, and an initial project assessment to establish the baseline. Weeks 4-8 (Implementation & Transformation) — implementation of 20 to 30 SMART objectives (real controls deployed), optional individual coaching, final assessment, and offboarding to review, define the roadmap and hand over to the security officer, in the manager's presence to recognize the champion. Total investment: ~30 hours over 8 weeks (half a day per week). Results: 105+ champions trained, 80 critical projects transformed (30% of the critical portfolio). The +85% posture is calculated as: final score − initial score, the score being the number of controls actually implemented over the total possible (0-3 scale). Example controls: merge request approval, SAST in the pipeline, security gates for SCA, threat modeling, analysis of container deployment files. Completion rate: 87%.
+      </aside>
+    </section>
+
+    <!-- 8 -->
+    <section data-background-image="assets/slides/slide-08.png" data-background-size="contain">
+      <aside class="notes">
+        Second differentiator: Compliance-by-Design. Classic management objections: "security first, compliance later", "developers hate regulatory constraints", "regulation is the security officers' job". They are grounded: historically compliance was handled separately, after the fact, to "check the boxes". But with PCI-DSS, ISO 27k and GDPR audits, the sequential approach is untenable — compliance is a critical business constraint. Concretely: frameworks mapped from the start of the project; 130+ requirements translated into controls developers can actually implement; QSA-approved controls delivered into production. Result: 65% of projects moved up a compliance level during the program (e.g. PCI-Basic → ISO-Intermediate, ISO-Intermediate → DevSecOps-Advanced).
+      </aside>
+    </section>
+
+    <!-- 9 -->
+    <section data-background-image="assets/slides/slide-09.png" data-background-size="contain">
+      <aside class="notes">
+        A systematic approach transforming regulatory requirements into audit-ready implementations. Three phases: Design (QSA-Validated Requirements) — analysis of applicable frameworks, QSA validation and approval BEFORE producing the SMART objectives, transformation of controls into SMART objectives, creation of runbooks and templates. Implementation (Champion-Led Deployment) — deployment of controls by champions, workshops for challenging controls (e.g. web-skimming, PCI-DSS v4 keyed hash), audit preparation session. Audit (QSA Verification) — the QSA verifies during the audit the champion's participation and adherence to templates and standards. Results: 130+ requirements assessed, 65% of projects moved up a level, 100% of Paypage projects onboarded (logical given PCI-DSS constraints). Deliverables: QSA-approved, audit-ready projects with certified compliance.
+      </aside>
+    </section>
+
+    <!-- 10 -->
+    <section data-background-image="assets/slides/slide-10.png" data-background-size="contain">
+      <aside class="notes">
+        Third differentiator: maximizing impact with minimal resources. Objections: "it requires a dedicated security team", "training is expensive", "it creates a huge administrative burden". Justified, as classic programs quickly become costly. But with 8,000+ developers, 500+ products and constrained budgets, an economically viable model was needed. Hence a participative model leveraging what already exists: existing resources (people, tools, processes); hybrid and self-paced training (65% reusable e-learning, 25% targeted live, 10% coaching); autonomous assessment with minimal oversight. Result: 1 FTE drives the transformation of 30% of the critical application portfolio.
+      </aside>
+    </section>
+
+    <!-- 11 -->
+    <section data-background-image="assets/slides/slide-11.png" data-background-size="contain">
+      <aside class="notes">
+        Key principle: multi-audience content scaling, supporting champions in a train-the-trainer role. A single core content base declined for three audiences with varying depth and hands-on practice. Intensive Bootcamp (champions): the 8-week program with a complete starter kit (presentations, materials, audit references, recorded workshops). Live Group Training (developers): 2-day live sessions, groups of max 20, practical focus, 6 core modules (Security by Design, SAST, SCA, DAST…). Awareness Training (managers): half a day, conceptual overview (objectives, champions' role and missions). The efficiency secret: recorded workshops and webinars recycled into e-learning modules — created once, used everywhere — plus self-service templates and samples for complex controls. Results: 90% of controls covered by training, 65% reusable e-learning, 1 FTE driving 30% of the critical portfolio with impact on ~1000 developers.
+      </aside>
+    </section>
+
+    <!-- 12 -->
+    <section data-background-image="assets/slides/slide-12.png" data-background-size="contain">
+      <aside class="notes">
+        Fourth differentiator: Implementation-Driven Measurement. Objections about traditional measurement: "focus on vulnerability reduction", "track participation rates", "measure tool adoption". Logical, since we measure what is easily quantifiable. But these metrics did not tell whether champions were actually transforming their practices — we needed to measure transformation, not activity. Hence a practice-centric approach: preventive controls rather than reactive metrics; tracking the concrete implementation of controls (not just activated tools); measuring methodology and practice adoption (how tools are used). Result: practice improvement of 105 champions measured through project transformation — we know which controls each champion implemented, in which project, with what impact.
+      </aside>
+    </section>
+
+    <!-- 13 -->
+    <section data-background-image="assets/slides/slide-13.png" data-background-size="contain">
+      <aside class="notes">
+        A bottom-up and pragmatic philosophy: metrics focus on practice adoption and standard implementation through concrete control deployment — measuring real transformation, not participation or mere vulnerability reduction. A dual scoring system: Security Posture Scoring (linear) measures adherence to good practices — (final score − initial score) / applicable total × 100 — giving the champion's contribution effort and relative improvement. Compliance Scoring (tiered, stricter) measures conformance to standards (PCI-DSS, ISO 27k, DevSecOps) across 6 tiers, from Non-compliant to DevSecOps-ready; all controls of a tier must be completed to earn the points. Derived analytics: hardest-to-improve practice, least adopted practice initially vs quick wins, each champion's contribution. In total, 25+ key metrics (Champion Contribution Effort, Program efficiency, Compliance Gap, Security Posture Gap, Project Readiness for Cloud, Missing Management support…).
+      </aside>
+    </section>
+
+    <!-- 14 -->
+    <section data-background-image="assets/slides/slide-14.png" data-background-size="contain">
+      <aside class="notes">
+        A rarely discussed aspect: what happens when the program works too well? "The Success Paradox": the more the program gains credibility, the more management delegates full responsibility, which leads to management disengagement, then program isolation, and finally decline. Typically: "your program works well, we trust you, keep it up" — a danger signal, because without visible support and renewed engagement, the program becomes strategically invisible. Critical needs: on the management side, visible support and renewed active participation; on the security teams side, ownership integration of the program rather than dependence on a single person. Scale vs Strategic Evolution dilemma: intuition pushes to scale to onboard as many projects as possible, but the chosen path was different — using the framework as a ready-to-use transformation lever for current challenges (Cloud, AI Development, Eco-Design). Strategic choices: challenge top management (IT + security) on ownership, focus efforts on current transformation needs rather than broad scaling, a proven framework ready for emerging domains.
+      </aside>
+    </section>
+
+    <!-- 15 -->
+    <section data-background-image="assets/slides/slide-15.png" data-background-size="contain">
+      <aside class="notes">
+        Initial objective achieved: spreading a culture of good security practices in an impactful and concrete way (performative approach), at low cost and in a measurable manner. Asking these questions and anticipating objections is a prerequisite before presenting the project to top management. Five tips worth knowing before starting: 1) carefully cast champions and plan backups — several champions per project ensure continuity; 2) focus on critical assets — their owners, driven by compliance or marked by incidents, are naturally inclined to participate; 3) measure effective transformation very early, to gain visibility and correct what works less well; 4) measure champions' contribution effort to recognize them with their management (recognition, rewards) — with bonuses staying within the projects, since securing is part of inherent duties; 5) create vocations through CTFs, monthly meetings and workshops. Once the program has borne fruit, it becomes important to institutionalize: integrate the program into the ISMS and hold management accountable. In parallel, adapt the program to support ongoing transformations (new certifications, public cloud, AI) — a transformation model being generalized, as transformation becomes the norm.
+      </aside>
+    </section>
+
+    <!-- 16 -->
+    <section data-background-image="assets/slides/slide-16.png" data-background-size="contain">
+      <aside class="notes">
+        Thank you and open to questions.
+      </aside>
+    </section>
 
   </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
 <script>
   Reveal.initialize({
     width: 1280,
@@ -47,7 +143,9 @@
     controls: true,
     progress: true,
     slideNumber: false,
-    transition: 'slide'
+    transition: 'slide',
+    showNotes: true,          // notes visibles dans l'export PDF
+    plugins: [ RevealNotes ]  // fenêtre présentateur (touche S)
   });
 </script>
 </body>
