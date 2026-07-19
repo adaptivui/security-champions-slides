@@ -55,13 +55,16 @@ The presentation engine (HTML, JavaScript, configuration) is licensed under the
 presentations.
 
 ### Slides & content — CC BY-NC-ND 4.0
-The slide images (`assets/slides/*`), Worldline branding, and program content are
-licensed under
-[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+The slide images (`assets/slides/*`), the **speaker notes embedded in `index.html`**
+(`<aside class="notes">` blocks), Worldline branding, and program content are
+licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 - ✅ Share with attribution
 - ❌ No commercial use
 - ❌ No modifications / derivatives
+
+> Note: `index.html` therefore contains material under two licenses — its code
+> under Apache 2.0, and the speaker-note content under CC BY-NC-ND 4.0.
 
 > Presented at **OWASP AppSec Days France 2025**.
 > Worldline name and logo are trademarks of Worldline. All rights reserved.
